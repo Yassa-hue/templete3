@@ -1,0 +1,331 @@
+/* start our frame work */
+body{
+    height: 2790px  ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+}
+
+.main-color{
+    color: #56BBD3;
+}
+
+.main-background{
+    background: #56BBD3;
+}
+
+.second-color{
+    color: #2E3434;
+}
+
+.second-background{
+    background: #2E3434;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.fff{
+    color: #fff;
+}
+/* end our frame work */
+
+/* start header */
+.header .navbar{
+    padding: 10px;
+    height: 68px;
+}
+
+.header .navbar .h2{
+    width: 160px;
+    float: left;
+    margin-top: 0;
+}
+
+.header ul{
+    margin-top: -50px;
+}
+
+.header li{
+    float: right;
+    margin: 10px 10px 10px 10px;
+    list-style:none;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.header li:hover{
+    color: #56BBD3;
+}
+/* end header */
+
+/* start slogan */
+.slogan{
+    background: url("images/download.jpg");
+    height: 600px;
+    background-image: cover;
+}
+
+.slogan .our-slogan{
+    float: right;
+    margin-top: 290px;
+    color: #fff;
+    width: 302px;
+    height: 126px;
+    background: rgba( 50, 52, 51, .6);
+}
+
+.slogan .our-slogan h2{
+    margin: 24px 10px 10px 25px;
+}
+
+/* end slogan */
+
+
+/* start features */
+.features .container{
+    margin-top: 50px;
+}
+
+.features .feat{
+    width: 32%;
+    float: left;
+    margin-bottom: 60px;
+}
+
+.features .feat i{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 70px;
+}
+
+.features .feat h3{
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.features .feat p{
+    color: #333;
+}
+
+.features .feat i:hover{
+    background: #56BBD3;
+}
+
+.features .feat .smoller{
+    font-size: 55px;
+    line-height: 85px;
+}
+
+.features .details{
+    margin-top: 40px;
+}
+
+
+.features .details h1{
+    font-weight: 900;
+}
+
+.features .details p{
+    margin-bottom: 120px;
+}
+/* end features */
+
+/* start images */
+.images{
+    height: 700px;
+}
+
+
+.images .item{
+    width: 24%;
+    float: left;
+    margin: 5px;
+    position: relative;
+}
+
+.images .item img{
+    width: 100%;
+}
+
+.images .item .see-more{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(57, 57, 57, .8);
+    border-radius: 20px;
+}
+
+.images .item .hidden{
+    display: none;
+}
+
+.images .item .see-more i{
+    margin: 147px 10px 0 0;
+    width: 30px;
+    height: 30px;
+    background: #333;
+    color: #fff;
+    line-height: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.images .item .see-more i:hover{
+    background: #56BBD3;
+}
+
+.images .item:hover .see-more{
+    display: block;
+}
+/* end images */
+
+
+
+/* start squares */
+.squares{
+    margin-top: 75px;
+    height: 300px;
+}
+
+
+.squares .srcs{
+    width: 24%;
+    float: left;
+    position: relative;
+}
+
+.squares .srcs img{
+    width: 95%;
+    filter: brightness(1.2);
+    border-radius: 200px;
+}
+
+.squares .srcs h3{
+    position: absolute;
+    top: 62px;
+    left: 44px;
+    color: #fff;
+    display: none;
+}
+
+.squares .srcs:hover img{
+    filter: grayscale(2.5);
+    filter: brightness(.5);
+}
+
+.squares .srcs:hover h3{
+    display: block;
+}
+/* end squares */
+
+/* start phone */
+.phone{
+    background: #a5a5a5;;
+    height: 300px;
+    background-size: cover;
+}
+
+.phone .container .photo,
+.phone .container .ex{
+    width: 45%;
+    float: left;
+    color: #fff;
+}
+
+.phone .container .photo{
+    position: relative;
+    height: 300px;
+}
+
+.phone .container .ex{
+    margin-top: 30px;
+}
+
+.phone .container .photo img{
+    width: 60%;
+    bottom: 0;
+    position: absolute;
+    left: 10%;
+}
+/* end photo */
+
+
+/* start contacts */
+.contacts{
+    height: 250px;
+    background: rgba( 50, 52, 51, 1);
+}
+
+.contacts .container div{
+    width: 32%;
+    float: left;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.contacts .container div h2{
+    font-size: 20px;
+}
+
+.contacts .container div p{
+    counter-reset: #ccc;
+}
+
+.contacts .container div i{
+    background: #56BBD3;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contacts .fa-facebook:hover{
+    background: #3b5998;
+}
+
+.contacts .fa-twitter:hover{
+    background: #00acee
+}
+
+.contacts .fa-google-plus:hover{
+    background: #db4a39
+}
+
+.contacts .fa-behance:hover{
+    background: #053eff
+}
+
+.contacts .fa-pinterest-p:hover{
+    background: #c8232c
+}
+
+
+/* end contacts */
+
+.footer {
+    height: 100px;
+    background: #111;
+    color: #fff;
+    font-weight: bolder;
+}
+.footer .container{
+    padding-top: 40px;
+}
